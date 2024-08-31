@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #252841;
+    background-color: #f0f0f0;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252841;
+    color: white;
+    padding: 50px;
+}
+
+.intro-content {
+    max-width: 50%;
+}
+
+.intro-content h1 {
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #C8A753;
+}
+
+.intro-content p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.download-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #C8A753;
+    color: #252841;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.intro-image img {
+    border-radius: 5%;
+    max-width: 300px;
+}
+
+.tech-stack {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.tech-stack h2 {
+    font-size: 2.5em;
+    color: #C8A753;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tech-icons img {
+    margin: 0 15px;
+    max-width: 100px;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #252841;
+    color: white;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    color: #C8A753;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: white;
+    color: #252841;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 15px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    color: #C8A753;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input, textarea {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #C8A753;
+    color: #252841;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #252841;
+    color: white;
+    font-size: 0.9em;
+}
